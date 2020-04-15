@@ -1,0 +1,110 @@
+#heading
+{
+	text-align: center;
+	font-family: courier;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-left: -100px;
+	font-size: 50px;
+	color: white;
+}
+body
+{
+	padding: 30px;
+	background: url("./hot air 2.JPG");
+	background-size: 1650px 950px;
+}
+textarea
+{
+	width: 900px;
+	height: 80px;
+	margin-top: 30px;
+	margin-left: 150px;
+	margin-top: 20px;
+	font-size: 20px;
+	background: transparent;
+	color: white;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px;
+	padding: 10px;
+	outline: none;
+	box-shadow: 2px 1px 10px;
+}
+#add
+{
+	width: 150px;
+	height: 50px;
+	background-color: ff6347;
+	color: black;
+	font-family: courier;
+	font-size: 20px;
+	margin-top: 22px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: grey;
+	font-weight: bold;
+	box-shadow: 2px 1px 10px;
+	outline: none;
+}
+#mark
+{
+	font-size: 20px;
+	font-family: courier;
+	color: green;
+	text-decoration: none;
+	font-weight: bold;
+}
+#delete
+{
+	font-size: 50px;
+	font-family: courier;
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: bottom;
+}
+#container tr td 
+{
+	text-align: left;
+	margin-left: 150px;
+	padding: 10px;
+	vertical-align: bottom;
+	border-bottom: 1px solid grey;
+	box-shadow: 2px 1px 10px ;
+	backdrop-filter: blur(10px);
+}
+.task
+{
+	font-family: courier;
+	font-size: 20px;
+	color: 003366;
+	text-align: bottom;
+}
+.a
+{
+	width: 100px;
+	height: 90px;
+}
+.t
+{
+	width: 800px;
+	height: 90px;
+}
+#yt
+{
+	font-family: courier;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+#second_div
+{
+	margin-top: 50px;
+}
+#check
+{
+	width: 90px;
+	height: 80px;
+}
