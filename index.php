@@ -1,5 +1,6 @@
 <?php
 include 'config.php';
+$con = mysqli_connect("host","user","pass","path");
 if(isset($_POST['submit']))
 {
 	$textarea = $_POST['text'];
