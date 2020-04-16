@@ -8,7 +8,7 @@ $cleardb_url      = parse_url(getenv(" mysql://b6684c04b5974d:2888ee12@us-cdbr-i
 $cleardb_server   = $cleardb_url["localhost"];
 $cleardb_username = $cleardb_url["root"];
 $cleardb_password = $cleardb_url[""];
-$cleardb_db       = substr($cleardb_url["to_do_list"],1);
+$cleardb_db       = substr($cleardb_url["Downloads/to_do_list.sql"],1);
 
 
 $active_group = 'default';
