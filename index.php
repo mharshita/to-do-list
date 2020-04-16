@@ -1,6 +1,6 @@
 <?php
 include 'config.php';
-$con = mysqli_connect("us-cdbr-iron-east-01.cleardb.net","b6684c04b5974d","2888ee12"," C:\Users\Mangla\Downloads\to_do_list.sql");
+$con = mysqli_connect("us-cdbr-iron-east-01.cleardb.net","b6684c04b5974d","2888ee12","heroku_003c3947f7f82a3");
 if(isset($_POST['submit']))
 {
 	$textarea = $_POST['text'];
