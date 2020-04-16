@@ -1,14 +1,14 @@
 <?php 
-$username = "root";
-$password = "";
-$host = "localhost";
-$dbname = "to_do_list";
+//$username = "root";
+//$password = "";
+//$host = "localhost";
+//$dbname = "to_do_list";
 
-$cleardb_url      = parse_url(getenv("CLEARDB_DATABASE_URL"));
-$cleardb_server   = $cleardb_url["host"];
-$cleardb_username = $cleardb_url["user"];
-$cleardb_password = $cleardb_url["pass"];
-$cleardb_db       = substr($cleardb_url["path"],1);
+$cleardb_url      = parse_url(getenv(" mysql://b6684c04b5974d:2888ee12@us-cdbr-iron-east-01.cleardb.net/heroku_003c3947f7f82a3?reconnect=true"));
+$cleardb_server   = $cleardb_url["localhost"];
+$cleardb_username = $cleardb_url["root"];
+$cleardb_password = $cleardb_url[""];
+$cleardb_db       = substr($cleardb_url["to_do_list"],1);
 
 
 $active_group = 'default';
