@@ -1,6 +1,5 @@
 <?php
 include 'config.php';
-$con = mysqli_connect("localhost","root","","to_do_list");
 if(isset($_POST['submit']))
 {
 	$textarea = $_POST['text'];
