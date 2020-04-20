@@ -1,0 +1,56 @@
+body
+{
+	background: url("./feather.JPG");
+	background-size: 1650px 950px;
+}
+#first_table
+{
+	margin-top: 250px;
+	margin-left: 450px;
+	backdrop-filter: blur(10px);
+	padding: 10px;
+}
+.choice
+{
+	font-family: courier;
+	color: white;
+	font-size: 40px;
+	padding: 10px;
+}
+.btn
+{
+	padding: 20px;
+	border-radius: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: grey;
+	background-color: orange;
+	outline: none;
+	box-shadow: 2px 1px 10px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: courier;
+	color: white;
+	font-weight: bold;
+}
+#sign_table
+{
+	
+	margin-top: 250px;
+	margin-left: 550px;
+	backdrop-filter: blur(10px);
+	padding: 10px;
+}
+#th
+{
+	font-family: courier;
+	font-size: 25px;
+	color: 8000ff;
+	font-weight: white;
+}
+.t
+{
+	font-size: 20px;
+	font-family: courier;
+	color: white;
+}
