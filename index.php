@@ -7,20 +7,15 @@ session_start();
 <title>
 login system
 </title>
-<link rel="stylesheet" type="text/css" href="login.css"/>
+<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
-<form>
-<table id="first_table">
-<tr>
-<td><h1 class="choice">NEW HERE?</h1></td>
-<td><a href="signup.php" class="btn">SIGN UP</a>
-</tr>
-<tr>
-<td><h1 class="choice">ALREADY HAVE AN ACCOUNT?</h1></td>
-<td><a href="login.php" class="btn">LOGIN</a>
-</tr>
-</table>
-</form>
+<div>
+<h1 id="h">TO-DO LIST</h1>
+<a href="signup.php">
+    <p><span class="bg"></span><span class="base"></span><span class="text">SIGN UP</span></p></a>
+<a class="transparent" href="login.php">
+    <p><span class="bg"></span><span class="base"></span><span class="text">SIGN IN</span></p></a>
+</div>
 </body>
 </html>
