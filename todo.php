@@ -70,7 +70,7 @@ if($res){
 while ($row=mysqli_fetch_assoc($res)){
 ?>
 <td class="t"><h4 class="task"><?php echo $row['task']; ?></h4></td>
-<td class="a" name="delete"><a href="todo_par.php?delete=<?php echo $row['id'] ?>" id="delete" style="font-size:26px;">DELETE</a></td>
+<td class="a" name="delete"><a href="todo.php?delete=<?php echo $row['id'] ?>" id="delete" style="font-size:26px;">DELETE</a></td>
 <td><form method="post"><input type="checkbox" id="check" style="height:35px;width:35px"/></form></td>
 </tr><?php
 }}?>
