@@ -209,7 +209,7 @@ body {
     <div class="user-box">
       <input type="password" name="password" required/>
       <label>Password</label>
-    </div><input type="submit" name="log_in" class="a"/>
+    </div><input type="submit" name="log_in" class="a" style="background: transparent"/>
       <span></span>
       <span></span>
       <span></span>
